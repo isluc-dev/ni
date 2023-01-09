@@ -31,7 +31,6 @@ document.getElementById("transaction-form").addEventListener("submit", function(
   myModal.hide();
   getCashIn();
   getCashOut();
-  getCashOut();
   alert("Lançamento adicionado com sicesso!");
 
 })
