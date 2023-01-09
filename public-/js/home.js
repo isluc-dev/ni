@@ -30,7 +30,6 @@ document.getElementById("transaction-form").addEventListener("submit", function(
   e.target.reset();
   myModal.hide();
   getCashIn();
-  getCashOut();
   alert("Lançamento adicionado com sicesso!");
 
 })
